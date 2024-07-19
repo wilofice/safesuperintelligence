@@ -33,26 +33,25 @@ prompt = ChatPromptTemplate.from_messages(
 
 # 2. Create model
 
-#from langchain_huggingface import HuggingFacePipeline
+from langchain_huggingface import HuggingFacePipeline
 
-#llm = HuggingFacePipeline.from_model_id(
-#     model_id="Trelis/Meta-Llama-3-8B-Instruct-function-calling",
-#     task="text-generation",
-#     pipeline_kwargs=dict(
-#         max_new_tokens=512,
-#         do_sample=False,
-#         repetition_penalty=1.03
-#     ),
-# )
-model = ChatOllama(model="llama3")
-# HUGGINGFACEHUB_API_TOKEN = "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"
+llm = HuggingFacePipeline.from_model_id(
+     model_id="Trelis/Mistral-7B-Instruct-v0.2-function-calling-v3",
+     task="text-generation",
+     pipeline_kwargs=dict(
+         max_new_tokens=512,
+         do_sample=False,
+         repetition_penalty=1.03
+     ),
+ )
 
-# import os
-# os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
+HUGGINGFACEHUB_API_TOKEN = "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"
+import os
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
 
-# from langchain_huggingface import ChatHuggingFace
+from langchain_huggingface import ChatHuggingFace
 
-# model = ChatHuggingFace(llm=llm)
+model = ChatHuggingFace(llm=llm)
 
 chain = prompt | model
 chain_with_msg_history = RunnableWithMessageHistory(chain, get_session_history,
