@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="" />
+    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scraping/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/db/documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/db/mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/loghelper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/medium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/boot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llmlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/llmlib.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,20 +36,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "wilofice"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wilofice&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wilofice/safesuperintelligence.git",
-    "accountId": "8871973d-1902-4285-9944-a66c41bf3b3f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wilofice/safesuperintelligence.git&quot;,
+    &quot;accountId&quot;: &quot;8871973d-1902-4285-9944-a66c41bf3b3f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,15 +68,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.entry.executor": "Run",
+    "Python.llmlib.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.mongo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "linux",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -106,14 +131,35 @@
       <updated>1721101220979</updated>
       <workItem from="1721101237647" duration="253000" />
       <workItem from="1721101496817" duration="20000" />
-      <workItem from="1721101520452" duration="11753000" />
+      <workItem from="1721101520452" duration="19447000" />
+      <workItem from="1721418082507" duration="315000" />
+      <workItem from="1721418512226" duration="7429000" />
+      <workItem from="1721445359644" duration="40000" />
+      <workItem from="1721445406191" duration="1305000" />
+      <workItem from="1721446720440" duration="2007000" />
     </task>
+    <task id="LOCAL-00001" summary="Update pycharm workspace.xml">
+      <option name="closed" value="true" />
+      <created>1721263633659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721263633659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update pycharm workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pycharm workspace.xml" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/safesuperintelligence$entry.coverage" NAME="entry Coverage Results" MODIFIED="1721448675947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
+    <SUITE FILE_PATH="coverage/safesuperintelligence$llmlib.coverage" NAME="llmlib Coverage Results" MODIFIED="1721416514708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/safesuperintelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1721240414906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/safesuperintelligence$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1721444636793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping/db" />
   </component>
 </project>
