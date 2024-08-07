@@ -64,8 +64,19 @@ class BaseDocument(BaseModel):
             return new_instance
         except errors.OperationFailure:
             logger.exception("Failed to retrieve or create document.")
-
             return None
+
+    @classmethod
+    def get(cls, **filter_options):
+        collection = _database[cls._get_collection_name()]
+        try:
+            instance = collection.find_one(filter_options)
+            if instance:
+                return cls.from_mongo(instance)
+        except errors.OperationFailure:
+            logger.exception("Failed to retrieve or create document.")
+
+        return None
 
     @classmethod
     def bulk_insert(cls, documents: List, **kwargs) -> Optional[List[str]]:

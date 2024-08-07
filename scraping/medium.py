@@ -2,8 +2,8 @@
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 
-from base import BaseAbstractCrawler
-from db.documents import ArticleDocument
+from scraping.base import BaseAbstractCrawler
+from scraping.db.documents import ArticleDocument
 from scraping.loghelper import LogHelper
 logger = LogHelper()
 
