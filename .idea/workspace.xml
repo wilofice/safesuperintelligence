@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="Articles scrapper implemented">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/safesuperintelligence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/safesuperintelligence.iml" afterDir="false" />
+    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tooling/http_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/db/documents.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/db/documents.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/db/mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/db/mongo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/medium.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/medium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooling/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/tooling/core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tooling/experimental/explangchainollamafunction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tooling/experimental/explangchainollamafunction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/wilofice/safesuperintelligence.git&quot;,
-    &quot;accountId&quot;: &quot;8871973d-1902-4285-9944-a66c41bf3b3f&quot;
+    &quot;accountId&quot;: &quot;725711c5-418e-4fe1-9384-686e85d35127&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -59,28 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.entry.executor": "Run",
-    "Python.llmlib.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mongo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "linux",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.entry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llmlib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mongo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;macos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="safesuperintelligence" />
@@ -130,6 +126,10 @@
       <workItem from="1721445359644" duration="40000" />
       <workItem from="1721445406191" duration="1305000" />
       <workItem from="1721446720440" duration="4015000" />
+      <workItem from="1723774796948" duration="19184000" />
+      <workItem from="1724494262733" duration="893000" />
+      <workItem from="1725090691062" duration="9750000" />
+      <workItem from="1725317276586" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="Update pycharm workspace.xml">
       <option name="closed" value="true" />
@@ -152,6 +152,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update pycharm workspace.xml" />
