@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tooling/http_handler.py" afterDir="false" />
+    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="Update commit">
+      <change afterPath="$PROJECT_DIR$/scraping/read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/tools" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraping/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tooling/experimental/ai_medium.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooling/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/tooling/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/lib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tooling/experimental/explangchainollamafunction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tooling/experimental/explangchainollamafunction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,30 +59,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python.llmlib.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mongo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;macos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.entry.executor": "Run",
+    "Python.llmlib.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mongo.executor": "Run",
+    "Python.read.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "macos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
+    <configuration name="entry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="safesuperintelligence" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scraping" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraping/entry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="safesuperintelligence" />
       <option name="ENV_FILES" value="" />
@@ -101,6 +130,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.entry" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,7 +163,10 @@
       <workItem from="1723774796948" duration="19184000" />
       <workItem from="1724494262733" duration="893000" />
       <workItem from="1725090691062" duration="9750000" />
-      <workItem from="1725317276586" duration="2854000" />
+      <workItem from="1725317276586" duration="4383000" />
+      <workItem from="1726528205874" duration="1979000" />
+      <workItem from="1735830520461" duration="47679000" />
+      <workItem from="1736500402701" duration="6919000" />
     </task>
     <task id="LOCAL-00001" summary="Update pycharm workspace.xml">
       <option name="closed" value="true" />
@@ -147,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721449066204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Polishing tutorial">
+      <option name="closed" value="true" />
+      <created>1725947256761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725947256761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,12 +212,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update pycharm workspace.xml" />
     <MESSAGE value="Articles scrapper implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Articles scrapper implemented" />
+    <MESSAGE value="Polishing tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polishing tutorial" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/safesuperintelligence$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1721495653956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping/db" />
-    <SUITE FILE_PATH="coverage/safesuperintelligence$entry.coverage" NAME="entry Coverage Results" MODIFIED="1721448675947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
-    <SUITE FILE_PATH="coverage/safesuperintelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1721240414906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/safesuperintelligence$read.coverage" NAME="read Coverage Results" MODIFIED="1736502238386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
+    <SUITE FILE_PATH="coverage/safesuperintelligence$entry.coverage" NAME="entry Coverage Results" MODIFIED="1736319471072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
+    <SUITE FILE_PATH="coverage/safesuperintelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1735838194784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/safesuperintelligence$llmlib.coverage" NAME="llmlib Coverage Results" MODIFIED="1721416514708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

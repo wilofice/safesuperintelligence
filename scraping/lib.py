@@ -14,3 +14,9 @@ def user_to_names(user: str | None) -> tuple[str, str]:
         first_name, last_name = " ".join(name_tokens[:-1]), name_tokens[-1]
 
     return first_name, last_name
+
+
+
+
+def testimport():
+    return 25
