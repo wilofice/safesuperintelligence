@@ -1,6 +1,6 @@
 import re
 
-from base import BaseCrawler
+from scraping.base import BaseCrawler
 
 
 class CrawlerDispatcher:

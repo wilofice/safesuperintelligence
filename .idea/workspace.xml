@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="Update commit">
-      <change afterPath="$PROJECT_DIR$/scraping/read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping/tools" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tooling/experimental/ai_medium.ipynb" afterDir="false" />
+    <list default="true" id="7e3e5151-e8df-45fe-98ee-ed0d3650e35f" name="Changes" comment="Langchain tool call working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/dispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/dispatcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/entry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scraping/lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/lib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tooling/experimental/explangchainollamafunction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tooling/experimental/explangchainollamafunction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/read.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooling/experimental/ai_medium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tooling/experimental/ai_medium.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,7 @@
       <workItem from="1725317276586" duration="4383000" />
       <workItem from="1726528205874" duration="1979000" />
       <workItem from="1735830520461" duration="47679000" />
-      <workItem from="1736500402701" duration="6919000" />
+      <workItem from="1736500402701" duration="16836000" />
     </task>
     <task id="LOCAL-00001" summary="Update pycharm workspace.xml">
       <option name="closed" value="true" />
@@ -192,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725947256761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Langchain tool call working">
+      <option name="closed" value="true" />
+      <created>1737192031664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737192031664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,11 +218,12 @@
     <MESSAGE value="Update pycharm workspace.xml" />
     <MESSAGE value="Articles scrapper implemented" />
     <MESSAGE value="Polishing tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polishing tutorial" />
+    <MESSAGE value="Langchain tool call working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Langchain tool call working" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/safesuperintelligence$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1721495653956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping/db" />
-    <SUITE FILE_PATH="coverage/safesuperintelligence$read.coverage" NAME="read Coverage Results" MODIFIED="1736502238386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
+    <SUITE FILE_PATH="coverage/safesuperintelligence$read.coverage" NAME="read Coverage Results" MODIFIED="1737419930008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
     <SUITE FILE_PATH="coverage/safesuperintelligence$entry.coverage" NAME="entry Coverage Results" MODIFIED="1736319471072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraping" />
     <SUITE FILE_PATH="coverage/safesuperintelligence$main.coverage" NAME="main Coverage Results" MODIFIED="1735838194784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/safesuperintelligence$llmlib.coverage" NAME="llmlib Coverage Results" MODIFIED="1721416514708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -1,4 +1,4 @@
-from errors import ImproperlyConfigured
+from scraping.errors import ImproperlyConfigured
 
 
 def user_to_names(user: str | None) -> tuple[str, str]:

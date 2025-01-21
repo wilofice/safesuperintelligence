@@ -1,12 +1,11 @@
 from typing import Any
 
-import loghelper
 # from aws_lambda_powertools.utilities.typing import LambdaContext
 
-import lib
-from medium import MediumCrawler
-from db.documents import UserDocument
-from dispatcher import CrawlerDispatcher
+from scraping.lib import user_to_names
+from scraping.medium import MediumCrawler
+from scraping.db.documents import UserDocument
+from scraping.dispatcher import CrawlerDispatcher
 from scraping.loghelper import LogHelper
 
 logger = LogHelper()
@@ -16,7 +15,7 @@ _dispatcher.register("medium", MediumCrawler)
 
 
 def handler(event, context) -> dict[str, Any]:
-    first_name, last_name = lib.user_to_names(event.get("user"))
+    first_name, last_name = user_to_names(event.get("user"))
 
     user = UserDocument.get_or_create(first_name=first_name, last_name=last_name)
 
